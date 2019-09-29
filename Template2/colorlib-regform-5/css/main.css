@@ -399,6 +399,8 @@ h6 {
   font-family: inherit;
 }
 
+
+
 .btn--radius {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -425,6 +427,13 @@ h6 {
   background: #4dae3c;
 }
 
+.btn--blue2 {
+  background: #0c7c92;
+}
+.btn--blue2:hover {
+  background: #0b7083;
+}
+
 .btn--blue {
   background: #4272d7;
 }
@@ -440,6 +449,14 @@ h6 {
 .btn--red:hover {
   background: #eb3746;
 }
+/* ==========================================================================
+   #BUTTON FORM
+   ========================================================================== */
+
+.btn-añadir{
+  padding-top: 50px;
+}
+
 
 /* ==========================================================================
    #DATE PICKER
