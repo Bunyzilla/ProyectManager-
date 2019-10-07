@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Escrum Eagle</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- VENDOR CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/linearicons/style.css">
+    <link rel="stylesheet" href="assets/vendor/chartist/css/chartist-custom.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/main3.css">
+    <!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
+    <link rel="stylesheet" href="css/demo.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://image.flaticon.com/icons/svg/929/929339.svg">
+</head>
+
+<body>
+    <!-- WRAPPER -->
+    <div id="wrapper">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="brand">
+                <p class="tit">
+                    Escrum Eagle <img src="https://image.flaticon.com/icons/svg/929/929339.svg" alt="senpai" style="width:25px;height:25px;">
+                </p>
+            </div>
+            <div class="container-fluid">
+                <div class="navbar-btn">
+                    <button type="button" class="btn-toggle-fullwidth"><i
+                            class="lnr lnr-arrow-left-circle"></i></button>
+                </div>
+                <form class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="text" value="" class="form-control" placeholder="Search dashboard...">
+                        <span class="input-group-btn"><button type="button" class="btn btn-primary">Go</button></span>
+                    </div>
+                </form>
+                <div id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle icon-menu" data-toggle="dropdown">
+                                <i class="lnr lnr-alarm"></i>
+                                <span class="badge bg-danger">5</span>
+                            </a>
+                            <ul class="dropdown-menu notifications">
+                                <li><a href="#" class="notification-item"><span class="dot bg-warning"></span>System
+                                        space is almost full</a></li>
+                                <li><a href="#" class="notification-item"><span class="dot bg-danger"></span>You have 9
+                                        unfinished tasks</a></li>
+                                <li><a href="#" class="notification-item"><span class="dot bg-success"></span>Monthly
+                                        report is available</a></li>
+                                <li><a href="#" class="notification-item"><span class="dot bg-warning"></span>Weekly
+                                        meeting in 1 hour</a></li>
+                                <li><a href="#" class="notification-item"><span class="dot bg-success"></span>Your
+                                        request has been approved</a></li>
+                                <li><a href="#" class="more">See all notifications</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+        <!-- MAIN -->
+        <div id="sidebar-nav" class="sidebar">
+            <div class="sidebar-scroll">
+                <nav>
+                    <ul class="nav">
+                        <div class="profile-header">
+                            <div class="overlay"></div>
+                            <div class="profile-main">
+                                <img src="images/user-medium.png" class="img-circle" alt="Avatar">
+                                <h3 class="name">Samuel Gold</h3>
+                                <span class="online-status status-available">Available</span>
+                            </div>
+                        </div>
+                        <div class="profile-detail">
+                            <div class="profile-info">
+                                <h4 class="heading">Basic Info</h4>
+                                <ul class="list-unstyled list-justify">
+                                    <li>Birthdate <span>24 Aug, 2016</span></li>
+                                    <li>Mobile <span>(124) 823409234</span></li>
+                                    <li>Email <span>samuel@mydomain.com</span></li>
+                                    <li>Website <span><a href="https://www.themeineed.com">www.themeineed.com</a></span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a href="page-profile.html" class=""><span class="lnr lnr-calendar-full"></span>
+                                            <span>Calendario</span></a></li>
+                                    <li><a href="proyectos.html" class=""><span class="lnr lnr-briefcase"></span>
+                                            <span>Proyectos</span></a></li>
+                                    <li><a href="proSet.html" class=""><span class="lnr lnr-pencil"></span>
+                                            <span>Configuración</span></a></li>
+                                    <li> <a href="index.html" class=""><span class="lnr lnr-exit"></span>Cerrar
+                                            sesión</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main">
+            <!-- MAIN CONTENT -->
+            <div class="main-content">
+                <div class="container-fluid">
+                    <!-- OVERVIEW -->
+                    <div class="panel panel-headline">
+                        <div class="panel-body">
+                            <!--Aqui-->
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h2>Proyectos</h2>
+                                        <div class="metric">
+                                            <span class="title">
+                                                <p class="historias" id="pro">
+                                                    Proyect Manager
+                                                </p>
+                                            </span>
+                                            <span class="title">
+                                                <p class="historias" id="btpro">
+                                                    <button type="button" class="btn btn-default">
+                                                        <li><a href="board.html" class="active"><i
+                                                                    class="lnr lnr-home"></i> <span>Board</span></a>
+                                            </li>
+                                            </button>
+                                            </p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="metric">
+                                            <span class="title">
+                                                <p class="historias" id="pro">
+                                                    Proyect Manager2
+                                                </p>
+                                            </span>
+                                            <span class="title">
+                                                <p class="historias" id="btpro">
+                                                    <button type="button" class="btn btn-default">
+                                                        <li><a href="board.html" class="active"><i
+                                                                    class="lnr lnr-home"></i> <span>Board</span></a>
+                                            </li>
+                                            </button>
+                                            </p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">&copy; 2019 All Rights Reserved Bunny. <img src="https://image.flaticon.com/icons/png/128/271/271439.png" alt="senpai" style="width:25px;height:25px;"></p>
+
+        </div>
+    </footer>
+    </div>
+    <!-- END WRAPPER -->
+    <!-- Javascript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="assets/vendor/chartist/js/chartist.min.js"></script>
+    <script src="assets/scripts/klorofil-common.js"></script>
+
+</body>
+
+</html>

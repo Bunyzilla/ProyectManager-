@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Escrum Eagle</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- VENDOR CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/linearicons/style.css">
+    <link rel="stylesheet" href="assets/vendor/chartist/css/chartist-custom.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/main3.css">
+    <!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
+    <link rel="stylesheet" href="css/demo.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://image.flaticon.com/icons/svg/929/929339.svg">
+</head>
+
+<body>
+    <!-- WRAPPER -->
+    <div id="wrapper">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="brand">
+                <p class="tit">
+                    Escrum Eagle <img src="https://image.flaticon.com/icons/svg/929/929339.svg" alt="senpai" style="width:25px;height:25px;">
+                </p>
+
+            </div>
+            <div class="container-fluid">
+                <div class="navbar-btn">
+                    <button type="button" class="btn-toggle-fullwidth"><i
+							class="lnr lnr-arrow-left-circle"></i></button>
+                </div>
+                <form class="navbar-form navbar-left">
+                    <div class="input-group">
+                        <input type="text" value="" class="form-control" placeholder="Search dashboard...">
+                        <span class="input-group-btn"><button type="button" class="btn btn-primary">Go</button></span>
+                    </div>
+                </form>
+                <div id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle icon-menu" data-toggle="dropdown">
+                                <i class="lnr lnr-alarm"></i>
+                                <span class="badge bg-danger">5</span>
+                            </a>
+                            <ul class="dropdown-menu notifications">
+                                <li><a href="#" class="notification-item"><span class="dot bg-warning"></span>System
+										space is almost full</a></li>
+                                <li><a href="#" class="notification-item"><span class="dot bg-danger"></span>You have 9
+										unfinished tasks</a></li>
+                                <li><a href="#" class="notification-item"><span class="dot bg-success"></span>Monthly
+										report is available</a></li>
+                                <li><a href="#" class="notification-item"><span class="dot bg-warning"></span>Weekly
+										meeting in 1 hour</a></li>
+                                <li><a href="#" class="notification-item"><span class="dot bg-success"></span>Your
+										request has been approved</a></li>
+                                <li><a href="#" class="more">See all notifications</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="assets/img/user.png" class="img-circle" alt="Avatar"> <span>Samuel</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="page-profile.html"><i class="lnr lnr-user"></i> <span>My Profile</span></a></li>
+                                <li><a href="#"><i class="lnr lnr-envelope"></i> <span>Message</span></a></li>
+                                <li><a href="proSet.html"><i class="lnr lnr-cog"></i> <span>Settings</span></a></li>
+                                <li><a href="index.html"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+        <!-- LEFT SIDEBAR -->
+        <div id="sidebar-nav" class="sidebar">
+            <div class="sidebar-scroll">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="board.html" class="active"><i class="lnr lnr-home"></i> <span>Board</span></a></li>
+                        <li><a href="actividades.html" class=""><i class="lnr lnr-mustache"></i>
+								<span>Actividades</span></a>
+                        </li>
+                        <li><a href="tarjetas.html" class=""><i class="lnr lnr-paperclip"></i> <span>Tarjetas
+									archivadas</span></a></li>
+                        <li><a href="listas.html" class=""><i class="lnr lnr-list"></i> <span>Listas
+									archivadas</span></a>
+                        </li>
+                        <li><a href="ajustes.html" class=""><i class="lnr lnr-cog"></i> <span>Configuración del
+									tablero</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- END LEFT SIDEBAR -->
+        <!-- MAIN -->
+        <div class="main">
+            <!-- MAIN CONTENT -->
+            <div class="main-content">
+                <div class="container-fluid">
+                    <!-- OVERVIEW -->
+                    <div class="panel panel-headline">
+                        <div class="panel-body">
+                            <!--Aqui-->
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h3 class="panel-title">Product Backlog <button type="button" class="btn btn-default">
+												<img src="https://image.flaticon.com/icons/svg/1395/1395838.svg"
+													alt="senpai" style="width:25px;height:25px;"></h3>
+										<div class="metric">
+											<p>
+												<span class="title">
+													<p class="historias" id="hist">
+														Como: Administrador </br>
+														Quiero: Poder agregar huellas dactilares al registro de mis
+														empleados.</br>
+														Para: RF04 C3
+													</p>
+												</span>
+												<button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/1160/1160758.svg"
+														alt="senpai" style="width:25px;height:25px;">
+												</button>
+                                            <button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/875/875550.svg"
+														alt="senpai" style="width:25px;height:25px;">
+												</button>
+                                            </p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3 class="panel-title">Sprint Backlog <button type="button" class="btn btn-default">
+												<img src="https://image.flaticon.com/icons/svg/1395/1395838.svg"
+													alt="senpai" style="width:25px;height:25px;"></h3>
+
+										</button>
+                                        <div class="metric">
+                                            <p id="hist">
+                                                <span class="title">
+													Como: Empleado</br>
+													Quiero: Consultar el historial de tareas que me asignaron.</br>
+													Para: Determinar cual fue la distancia recorrida y el consumo de
+													gasolina durante la actividad y también conocer cuales tareas de
+													cada actividad.
+													RF08, RF13 C5
+												</span>
+
+                                                <button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/1160/1160758.svg"
+														alt="senpai" style="width:25px;height:25px;">
+												</button>
+                                                <button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/875/875550.svg"
+														alt="senpai" style="width:25px;height:25px;">
+												</button>
+
+                                            </p>
+                                        </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <h3 class="panel-title">Realese Backlog <button type="button" class="btn btn-default">
+												<img src="https://image.flaticon.com/icons/svg/1395/1395838.svg"
+													alt="senpai" style="width:25px;height:25px;"></h3>
+										<div class="metric">
+											<p id="hist">
+												<span class="title">
+													...
+												</span>
+												</br>
+												<button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/1160/1160758.svg"
+														alt="senpai" style="width:25px;height:25px;">
+												</button>
+                                        <button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/875/875550.svg"
+														alt="senpai" style="width:25px;height:25px;">
+												</button>
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <button type="button" class="btn btn-default">
+											<img src="https://image.flaticon.com/icons/svg/875/875515.svg" alt="senpai"
+												style="width:25px;height:25px;">
+											Añadir Lista
+										</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="metric">
+                                    <p class="demo-button">
+                                        <button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/875/875515.svg"
+														alt="senpai" style="width:25px;height:25px;">
+													Product Backlog </button>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="metric">
+                                    <p class="demo-button">
+                                        <button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/875/875515.svg"
+														alt="senpai" style="width:25px;height:25px;">
+													Sprint Backlog</button>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="metric">
+                                    <p class="demo-button">
+                                        <button type="button" class="btn btn-default">
+													<img src="https://image.flaticon.com/icons/svg/875/875515.svg"
+														alt="senpai" style="width:25px;height:25px;">
+													Realese Backlog</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--Hasta aqui-->
+    <!--
+			<div class="clearfix"></div>
+		<footer>
+			<div class="container-fluid">
+				<p class="copyright">&copy; 2017 <a href="https://www.themeineed.com" target="_blank">Theme I Need</a>. All Rights Reserved.</p>
+			</div>
+		</footer>
+		-->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">&copy; 2019 All Rights Reserved Bunny. <img src="https://image.flaticon.com/icons/png/128/271/271439.png" alt="senpai" style="width:25px;height:25px;"></p>
+
+        </div>
+    </footer>
+    </div>
+    <!-- END WRAPPER -->
+    <!-- Javascript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="assets/vendor/chartist/js/chartist.min.js"></script>
+    <script src="assets/scripts/klorofil-common.js"></script>
+
+</body>
+
+</html>
